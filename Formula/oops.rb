@@ -1,26 +1,26 @@
 class Oops < Formula
   desc "Terminal undo for destructive commands"
   homepage "https://oops-cli.com"
-  version "0.4.9"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gedaliahs/oops/releases/download/v0.4.9/oops_darwin_arm64.tar.gz"
-      sha256 "f918fd32a2f1ae8fc93e64bb510b82e84f5f7a8a43d31e2be9559e2faacac4b1"
+      url "https://github.com/gedaliahs/oops/releases/download/v0.5.0/oops_darwin_arm64.tar.gz"
+      sha256 "f49101a26c35f1c161711609ad94a0ae4790f76860107ff7677320e180208d24"
     else
-      url "https://github.com/gedaliahs/oops/releases/download/v0.4.9/oops_darwin_amd64.tar.gz"
-      sha256 "79435972f3bb599e78907df0d95c792bbcf9cb15c65ecd28603efdd9f5e944c7"
+      url "https://github.com/gedaliahs/oops/releases/download/v0.5.0/oops_darwin_amd64.tar.gz"
+      sha256 "2fa51dec4abe0d493859b2461a22e35e9b66b71fd55229e6fcf985f9e503e118"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/gedaliahs/oops/releases/download/v0.4.9/oops_linux_arm64.tar.gz"
-      sha256 "4c007c84325bb806a20ff294d392e7859c4c563acadb25128a69fffde7afdeb1"
+      url "https://github.com/gedaliahs/oops/releases/download/v0.5.0/oops_linux_arm64.tar.gz"
+      sha256 "3feaaf0ab353f46a77e762758c89e85291b5f7a7711fa607ee3a0ae7ddc94e67"
     else
-      url "https://github.com/gedaliahs/oops/releases/download/v0.4.9/oops_linux_amd64.tar.gz"
-      sha256 "549f8243944408c513603d1d7b10a3d953861a537a3053aecb87acc2b36e12d6"
+      url "https://github.com/gedaliahs/oops/releases/download/v0.5.0/oops_linux_amd64.tar.gz"
+      sha256 "04985df74949175dca34c98afd1e874fe7cd25e6b63ea11ca38e10aedcaeea82"
     end
   end
 
